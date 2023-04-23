@@ -47,8 +47,8 @@ function createNewContact() {
     divPerson.appendChild(strong)
     divPerson.appendChild(p)
 
-    }
-
     sectionModal.classList.remove("showModal")
+
+    }
 
 }

@@ -11,6 +11,7 @@
     z-index: 999;
     padding: 1.6rem 3.2rem;
     display: none;
+    animation: reveal 500ms ease-out;
 
     .section__modalOpen {
         display: flex;

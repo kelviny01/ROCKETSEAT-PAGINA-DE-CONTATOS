@@ -143,7 +143,8 @@ main {
   transform: translate(-50%, -50%);
   z-index: 999;
   padding: 1.6rem 3.2rem;
-  display: none; }
+  display: none;
+  animation: reveal 500ms ease-out; }
   .section__modal .section__modalOpen {
     display: flex;
     flex-direction: column; }

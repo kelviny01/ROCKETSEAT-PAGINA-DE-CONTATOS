@@ -38,6 +38,9 @@ function createNewContact() {
     const p = document.createElement("p")
     p.innerText = dataInputNumber.value
 
+    dataInputText.value = ""
+    dataInputNumber.value = ""
+
     sectionContacts.appendChild(ul)
     ul.appendChild(li)
     li.appendChild(span)

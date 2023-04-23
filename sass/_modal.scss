@@ -1,0 +1,64 @@
+.section__modal {
+    min-width: 40rem;
+    background-color: $bg-color-main2;
+    border: .1rem solid $bg-color-header;
+    border-radius: 1rem;
+    box-shadow: 0 0rem 1.2rem rgba(255, 255, 255, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 1.6rem 3.2rem;
+    display: none;
+
+    .section__modalOpen {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: $color-text-white;
+            margin: 1rem 0;
+        }
+
+        input {
+            height: 4rem;
+            border-radius: 3rem;
+            border: none;
+            padding-inline-start: 1.2rem;
+            background-color: $bg-color-input;
+            color: $color-text-white;
+
+            &::placeholder {
+                color: $color-text-white;
+            }
+        }
+    }
+
+    .section__buttonSaved {
+        
+        button {
+            width: 100%;
+            margin-top: 2.5rem;
+            padding: 1.2rem;
+            background-color: transparent;
+            border: none;
+            color: $color-text-white;
+            border: .1rem solid $bg-color-name2;
+            border-radius: 3rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 500ms ease;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $bg-color-name2;
+            }
+        }
+    }
+
+}
+
+.showModal {
+    display: initial;
+}

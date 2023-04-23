@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Página de Contatos</title>
+</head>
+<body>
+
+    <main>
+
+        <header class="header">
+
+            <div class="header__infosContact">
+                <div class="header__myContacts">
+                    <h2>Meus contatos</h2>
+                </div>
+                <div class="header__tools">
+                    <img src="assets/img/iconAdd.svg" alt="Imagem de um icone de adicionar contato" data-iconAdd>
+                    <!-- <img src="assets/img/iconPencil.svg" alt="Imagem de um icone de um lápis para editar os contatos">
+                    <img src="assets/img/iconTrash.svg" alt="Imagem de um icon para remover contatos"> -->
+                </div>
+            </div>
+    
+            <form class="header__formInput">
+                <input type="text" class="header__inputSearch" placeholder="Busque por nome ou por dados de contato...">
+                <i class="ph ph-magnifying-glass"></i>
+            </form>
+    
+        </header>
+
+        <section class="section__modal">
+            <form class="section__modalOpen">
+                <label>Digite seu nome:</label>
+                <input type="text" data-inputText placeholder="Digite seu nome...">
+                <label>Digite seu número:</label>
+                <input type="tel" data-inputNumber placeholder="Digite seu número...">
+            </form>
+            <div class="section__buttonSaved">
+                <button type="submit" data-buttonAdd>Salvar</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__contacts">
+                
+                <!-- <ul class="section__contact">
+                    <li>
+                        <span data-letter="A">A</span>
+                        <div class="sections__contactInfos">
+                            <img src="assets/img/photoAbraao.svg" alt="">
+                            <div class="section__contactPerson">
+                                <strong>Abraão Sena</strong>
+                                <p>(11) 90876-1234</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul> -->
+
+                <!-- <ul class="section__contact">
+                    <li>
+                        <span data-letter="B">B</span>
+                        <div class="section__contactGroup">
+                            <div class="sections__contactInfos">
+                                <img src="assets/img/photoBeatriz.svg" alt="">
+                                <div class="section__contactPerson">
+                                    <strong>Beatriz Clasen</strong>
+                                    <p>(48) 90876-1123</p>
+                                </div>
+                            </div>
+                            <div class="sections__contactInfos">
+                                <img src="assets/img/photoBrenda.svg" alt="">
+                                <div class="section__contactPerson">
+                                    <strong>Brena Mendes</strong>
+                                    <p>(11) 90876-8765</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="section__contact">
+                    <li>
+                        <span data-letter="C">C</span>
+                        <div class="section__contactGroup">
+                            <div class="sections__contactInfos">
+                                <img src="assets/img/photoCaio.svg" alt="">
+                                <div class="section__contactPerson">
+                                    <strong>Caio Vinícius</strong>
+                                    <p>(71) 90876-2435</p>
+                                </div>
+                            </div>
+                            <div class="sections__contactInfos">
+                                <img src="assets/img/photoCleiton.svg" alt="">
+                                <div class="section__contactPerson">
+                                    <strong>Cleiton Souza</strong>
+                                    <p>(11) 90876-1209</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="section__contact">
+                    <li>
+                        <span data-letter="D">D</span>
+                        <div class="sections__contactInfos">
+                            <img src="assets/img/photoDaniel.svg" alt="">
+                            <div class="section__contactPerson">
+                                <strong>Daniel Duarte</strong>
+                                <p>(82) 90876-6534</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul> -->
+
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="js/searchContacts.js"></script>
+</body>
+</html>
